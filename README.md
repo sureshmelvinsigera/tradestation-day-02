@@ -242,16 +242,43 @@ Prompt 2 minutes of individual thinking — no need to collect answers:
 
 ---
 
-### 🟡 Slides 27–29 | Context Windows | 1:50 – 1:55
+# 🟡 Slides 27–29 | Context Windows | 1:50 – 1:55
 
-- Show the context window chart (Slide 28). Point out Claude Sonnet 4 and GPT-4.1 near the top at ~1M tokens.
+## Presenter Notes
 
-> 💬 **SAY:** **"The context window is the model's working memory. The bigger it is, the more of your document it can read and summarize in one pass — without forgetting the beginning by the time it reaches the end."**
+- Show the context window chart **(Slide 28)**. Point out Claude Sonnet 4 and GPT-4.1 near the top at ~1M tokens.
 
-- Discussion prompt (Slide 29): *"What problems might a very large context window create?"*
-  - 🎯 Good student answers: attention dilution, slower responses, higher cost, privacy risk with sensitive data
+> 💬 **SAY:** *"The context window is the model's working memory. The bigger it is, the more of your document it can read and summarize in one pass — without forgetting the beginning by the time it reaches the end."*
+
+- Discussion prompt **(Slide 29):** *"What problems might a very large context window create?"*
+  - 🎯 **Good student answers:** attention dilution, slower responses, higher cost, privacy risk with sensitive data
 
 ---
+
+## Background: The Core Concept
+
+These are facilitator notes for a lesson or workshop about AI and large language models.
+
+A **context window** is the amount of text a model can "see" and work with at one time — its short-term working memory. The bigger it is, the more content (documents, conversation history, code, etc.) the model can process in a single pass.
+
+Slide 28 shows a comparison chart where models like **Claude Sonnet 4** and **GPT-4.1** sit near the top with roughly **1 million tokens** (~750,000 words) — an enormous working memory compared to earlier models.
+
+---
+
+## Discussion Guide: Large Context Window Tradeoffs
+
+| Problem | Why It Matters |
+|---|---|
+| **Attention dilution** | Models can struggle to focus on what's relevant when flooded with too much text — "needle in a haystack" problem |
+| **Slower responses** | More tokens to process = more compute time = longer wait |
+| **Higher cost** | API pricing is typically per token, so larger contexts cost more money |
+| **Privacy risk** | If you paste a large document with sensitive data, that data is now in the model's context — a potential exposure risk |
+
+---
+
+## Pedagogical Purpose
+
+This section is designed to **balance the "wow factor"** of big context windows with **critical thinking** — helping students understand that bigger isn't always better, and that every capability comes with tradeoffs.
 
 ### 🟡 Slides 30–35 | Real Cases | 1:55 – 2:00
 
